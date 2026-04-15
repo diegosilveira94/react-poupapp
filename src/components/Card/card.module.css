@@ -1,0 +1,33 @@
+.card {
+  margin: 0;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutral-surface);
+}
+
+.header {
+  margin: 0px;
+  background-color: var(--neutral-header);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  color: var(--neutral-text);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+  padding: 16px;
+}
+
+.header p {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  padding: 8px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
