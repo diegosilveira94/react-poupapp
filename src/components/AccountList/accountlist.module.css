@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.list p {
+  margin: 0;
+  padding-inline-start: 0px;
+}
+
+.item {
+  border-bottom: 1px solid var(--neutral-header);
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+}
+
+.item:last-child {
+  border: none;
+}

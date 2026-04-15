@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.description {
+  font-weight: 700;
+}
+
+.income {
+  color: var(--secondary-income);
+}
+
+.expense {
+  color: var(--secondary-expense);
+}
+
+.date {
+  font-size: 15px;
+  line-height: 120%;
+  color: var(--neutral-text);
+}
